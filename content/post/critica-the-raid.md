@@ -11,11 +11,14 @@ tags:
   - Indonesia
 authors:
   - john-doe
+thumbnail: "img/posters/the-raid.webp"
 ---
 
 **Mi nota: 4/5**
 
 ★★★★☆
+
+![Póster de The Raid](/mirada-asiatica/img/posters/the-raid.webp)
 
 The Raid es una película de acción indonesia dirigida por Gareth Evans que se ha convertido en un título de culto del cine de artes marciales asiático.
 
