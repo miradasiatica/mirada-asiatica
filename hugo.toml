@@ -1,20 +1,10 @@
-baseurl = "https://roadster.pages.dev"
-title = "Roadster"
-languageCode = "en-us"
-# paginate = "10" # DEPRECATED! Use pagination.pagerSize below
+baseurl = "https://miradasiatica.github.io/mirada-asiatica/"
+title = "Mirada Asiática"
+languageCode = "es-es"
 theme = "roadster"
-# disqusShortname = "" # DEPRECATED! Use .Services.Disqus.Shortname below
-# googleAnalytics = "" # DEPRECATED! Use .Services.googleAnalytics.ID below
 
-# Configure Pagination. See https://gohugo.io/templates/pagination/#configuration
 [pagination]
-  pagerSize = 10 # (int) The number of pages per pager. Default is 10
-
-[services]
-  [services.googleAnalytics]
-    id = 'G-MEASUREMENT_ID'  # Enable Google Analytics by entering your tracking id
-  [services.disqus]
-    shortname = 'your-disqus-shortname' # Enable Disqus by entering your Disqus shortname
+  pagerSize = 10
 
 [permalinks]
   [permalinks.term]
@@ -25,35 +15,57 @@ theme = "roadster"
   tag = "tags"
   author = "authors"
 
-# Goldmark renders raw HTML mixed within the Markdown
 [markup.goldmark.renderer]
-  unsafe = true # N.B. This is unsafe unless the content is under your control.  Set to false if you don't mix HTML with markdown.
+  unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "Inicio"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Japón"
+    url = "/categories/japon/"
+    weight = 2
+  [[menu.main]]
+    name = "Corea"
+    url = "/categories/corea/"
+    weight = 3
+  [[menu.main]]
+    name = "China"
+    url = "/categories/china/"
+    weight = 4
+  [[menu.main]]
+    name = "Terror"
+    url = "/categories/terror/"
+    weight = 5
+  [[menu.main]]
+    name = "Clásicos"
+    url = "/categories/clasicos/"
+    weight = 6
+  [[menu.main]]
+    name = "Festivales"
+    url = "/categories/festivales/"
+    weight = 7
 
 [Params]
-  description = "John Doe's Personal blog about everything" # Description of your site
+  description = "Blog sobre cine asiático: reseñas, noticias y festivales"
   opengraph = true
-  twitter_cards = false
-  readmore = false # Show "Read more" button in list if true
+  readmore = false
   authorbox = true
   pager = true
-  post_meta = ["date", "categories"] # Order of post meta information
-  mainSections = ["post", "docs"]
-  CustomHeadHTML = "" # Add custom HTML in the <head> 
-
-# Authorbox data comes from author content bundles.
-# See examplesite/content/authors/john-doe/_index.md and
-# examplesite/content/docs/customization.md for the supported setup.
+  post_meta = ["date", "categories"]
+  mainSections = ["post"]
 
 [Params.logo]
-  subtitle = "Streamlined design, enhanced functionality" # Logo subtitle
+  subtitle = "Cine asiático: reseñas, noticias y festivales"
 
 [Params.sidebar]
-  home = "right"   # Configure layout for home page
-  list = "right"   # Configure layout for list pages
-  single = "right" # Configure layout for single pages
-  # Enable widgets in given order
+  home = "right"
+  list = "right"
+  single = "right"
   widgets = ["search", "recent", "categories", "taglist"]
 
 [Params.widgets]
-  recent_num = 5 # Set the number of articles in the "Recent articles" widget
-  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+  recent_num = 5
+  tags_counter = false
