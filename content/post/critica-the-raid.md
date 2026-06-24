@@ -26,6 +26,10 @@ The Raid es una película de acción indonesia dirigida por Gareth Evans que se 
 
 Un equipo de las fuerzas especiales queda atrapado en un edificio controlado por un peligroso señor del crimen. Para sobrevivir, deberán abrirse paso piso a piso.
 
+## Tráiler
+
+{{< youtube GDYwcjhvD-Y >}}
+
 ## Mi opinión
 
 Texto de ejemplo de la reseña. Aquí irá el análisis de la película, la dirección, las coreografías y todo lo que quieras destacar.
