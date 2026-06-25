@@ -10,7 +10,7 @@ tags:
   - artes marciales
   - Indonesia
 authors:
-  - mirada-asiatica
+  - alberto-peralta
 thumbnail: "img/posters/the-raid.webp"
 ---
 

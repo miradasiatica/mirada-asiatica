@@ -1,5 +1,5 @@
 ---
-title: "Mirada Asiática"
+title: "Alberto Peralta"
 bio: "Guionista y director de cine de formación, con especial interés por el cine asiático."
 ---
 
