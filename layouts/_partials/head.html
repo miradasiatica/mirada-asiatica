@@ -5,18 +5,47 @@
 <script>(function(w,d){var k="roadster-theme",t;try{t=w.localStorage.getItem(k);}catch(e){}if(t!=="dark"&&t!=="light"){t=w.matchMedia&&w.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";}d.documentElement.setAttribute("data-theme",t);})(window,document);</script>
 
 {{- partial "head/seo.html" . -}}
-
 {{- partial "head/gfonts.html" . -}}
-
 {{- partial "head/stylesheet.html" . -}}
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+
 <style>
+  /* Tipografia del titulo */
   .logo__title {
     font-family: "Cinzel", serif !important;
     letter-spacing: 0.02em;
+  }
+
+  /* Monograma blanco en modo oscuro */
+  [data-theme="dark"] .logo__img {
+    filter: invert(1);
+  }
+
+  /* Tamaño del monograma */
+  .logo__img {
+    height: 60px;
+    width: auto;
+  }
+
+  /* Layout escritorio: MA izquierda, texto centrado */
+  @media (min-width: 768px) {
+    .logo--mixed {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+    }
+    .logo__imagebox {
+      flex: 0 0 80px;
+    }
+    .logo__text {
+      flex: 1;
+      text-align: center;
+      margin-right: 80px;
+    }
   }
 </style>
 
@@ -33,47 +62,3 @@
 {{ if .Site.Params.CustomHeadHTML }}
     {{ .Site.Params.CustomHeadHTML | safeHTML }}
 {{ end }}
-<style>
-  [data-theme="dark"] .logo__img {
-    filter: invert(1);
-  }
-  .logo__img {
-    height: 60px;
-    width: auto;
-  }
-</style>
-<style>
-  @media (min-width: 768px) {
-    .logo {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      position: relative;
-    }
-    .logo__imagebox {
-      position: absolute;
-      left: 0;
-    }
-    .logo__text {
-      width: 100%;
-      text-align: center;
-    }
-  }
-</style>
-<style>
-  @media (min-width: 768px) {
-    .logo--mixed {
-      display: grid;
-      grid-template-columns: 80px 1fr 80px;
-      align-items: center;
-      width: 100%;
-    }
-    .logo__imagebox {
-      grid-column: 1;
-    }
-    .logo__text {
-      grid-column: 2;
-      text-align: center;
-    }
-  }
-</style>
