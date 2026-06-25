@@ -1,0 +1,53 @@
+<article class="list__item post">
+<div class="summary-row">
+  {{- if $thumbnail := .Params.thumbnail }}
+  <a class="summary-row__thumb" href="{{ .RelPermalink }}">
+    <img src="{{ $thumbnail | relURL }}" alt="{{ .Title }}">
+  </a>
+  {{- end }}
+  <div class="summary-row__body">
+    <header class="list__header">
+    <h2 class="list__title post__title">
+    <a href="{{ .RelPermalink }}" rel="bookmark">{{ .Title }}</a>
+    </h2>
+    {{ with partial "post_meta.html" . -}}
+    <div class="list__meta meta">{{ . }}</div>
+    {{- end }}
+    </header>
+    <div class="content list__excerpt post__content clearfix">
+    {{ .Summary }}
+    </div>
+    {{- if .Site.Params.readmore }}
+    {{- if .Truncated }}
+    <div class="list__footer clearfix">
+    <a class="list__footer-readmore btn" href="{{ .RelPermalink }}">{{ T "read_more" }}</a>
+    </div>
+    {{- end }}
+    {{- end }}
+  </div>
+</div>
+</article>
+
+<style>
+.summary-row {
+  display: flex;
+  gap: 1.25rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border-color);
+}
+.summary-row__thumb {
+  flex-shrink: 0;
+  width: 130px;
+}
+.summary-row__thumb img {
+  width: 100%;
+  aspect-ratio: 2/3;
+  object-fit: cover;
+  border-radius: 5px;
+  display: block;
+}
+.summary-row__body {
+  flex: 1;
+  min-width: 0;
+}
+</style>
