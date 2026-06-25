@@ -60,6 +60,7 @@ highlightColor = "#7c1f2b"
   mainSections = ["post"]
 
 [Params.logo]
+image = "img/logo.png"
   subtitle = "Cine asiático: reseñas, noticias y festivales"
 
 [Params.sidebar]
