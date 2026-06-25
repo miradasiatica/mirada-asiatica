@@ -62,7 +62,7 @@ highlightColor = "#7c1f2b"
 [Params.logo]
 image = "img/logo-ma.png"
 title = "Mirada Asiática"
-  subtitle = "Cine asiático: reseñas, noticias y festivales"
+  subtitle = "Cine asiático con criterio"
 
 [Params.sidebar]
   home = "right"
