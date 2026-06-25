@@ -1,0 +1,36 @@
+<div class="author-strip">
+  <img class="author-strip__photo" src="{{ "img/alberto-peralta-guerrero.jpg" | relURL }}" alt="Alberto Peralta">
+  <div class="author-strip__text">
+    <div class="author-strip__name">Alberto Peralta</div>
+    <div class="author-strip__bio">Llevo años viendo cine asiático con la convicción de que ahí ocurren algunas de las cosas más interesantes del cine contemporáneo. Este blog es el cuaderno de notas que siempre quise tener.</div>
+  </div>
+</div>
+<style>
+.author-strip {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.25rem 1.5rem;
+  margin: 2rem 0;
+  background: var(--card-bg, #f7f7f5);
+  border: 1px solid var(--border-color, #e5e5e5);
+  border-radius: 10px;
+}
+.author-strip__photo {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.author-strip__name {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+.author-strip__bio {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  opacity: 0.75;
+}
+</style>
