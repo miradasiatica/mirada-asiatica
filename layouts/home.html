@@ -6,7 +6,53 @@
 </div>
 {{- end }}
 
-{{ $paginator := (.Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections).ByDate.Reverse) }}
+{{ $pages := (where .Site.RegularPages "Type" "in" .Site.Params.mainSections).ByDate.Reverse }}
+
+{{- if ge (len $pages) 1 }}
+<div class="poster-strip">
+  {{ range first 6 $pages }}
+  <a href="{{ .RelPermalink }}" class="poster-strip__item" title="{{ .Title }}">
+    {{ with .Params.thumbnail }}
+    <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+    {{ else }}
+    <div class="poster-strip__placeholder"></div>
+    {{ end }}
+  </a>
+  {{ end }}
+</div>
+{{- end }}
+
+<style>
+.poster-strip {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 8px;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color, #e5e5e5);
+}
+.poster-strip__item {
+  display: block;
+  aspect-ratio: 2/3;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: opacity 0.2s;
+}
+.poster-strip__item:hover { opacity: 0.85; }
+.poster-strip__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.poster-strip__placeholder {
+  width: 100%;
+  height: 100%;
+  background: #3a1015;
+}
+</style>
+
+{{ $paginator := (.Paginate $pages) }}
 {{ range $paginator.Pages }}
 {{- .Render "summary" }}
 {{ end }}
