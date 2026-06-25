@@ -1,6 +1,5 @@
 ---
 title: "Alberto Peralta"
-image: "img/alberto-peralta-guerrero.jpg"
 bio: "Guionista y director de cine de formación, con especial interés por el cine asiático."
 ---
 
