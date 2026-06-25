@@ -13,38 +13,34 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
 
 <style>
-  /* Tipografia del titulo */
   .logo__title {
     font-family: "Cinzel", serif !important;
     letter-spacing: 0.02em;
   }
-
-  /* Monograma blanco en modo oscuro */
   [data-theme="dark"] .logo__img {
     filter: invert(1);
   }
-
-  /* Tamaño del monograma */
   .logo__img {
     height: 60px;
     width: auto;
   }
-
-  /* Layout escritorio: MA izquierda, texto centrado */
   @media (min-width: 768px) {
-    .logo--mixed {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
+    .logo__link {
+      display: block;
+      position: relative;
+      text-align: center;
       width: 100%;
     }
-    .logo__imagebox {
-      flex: 0 0 80px;
+    .logo--mixed .logo__imagebox {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
     }
-    .logo__text {
-      flex: 1;
+    .logo--mixed .logo__text {
+      display: inline-block;
       text-align: center;
-      margin-right: 80px;
+      padding: 0;
     }
   }
 </style>
