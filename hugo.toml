@@ -60,7 +60,8 @@ highlightColor = "#7c1f2b"
   mainSections = ["post"]
 
 [Params.logo]
-image = "img/logo.png"
+image = "img/logo-ma.png"
+title = "Mirada Asiática"
   subtitle = "Cine asiático: reseñas, noticias y festivales"
 
 [Params.sidebar]
