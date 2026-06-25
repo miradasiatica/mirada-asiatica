@@ -3,6 +3,7 @@ title = "Mirada Asiática"
 languageCode = "es-es"
 defaultContentLanguage = "es"
 theme = "roadster"
+highlightColor = "#7c1f2b"
 
 [pagination]
   pagerSize = 10
