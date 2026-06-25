@@ -68,7 +68,7 @@ title = "Mirada Asiática"
   home = "right"
   list = "right"
   single = "right"
-  widgets = ["search", "recent", "categories", "taglist"]
+  widgets = ["search", "afiliados", "recent", "categories", "taglist"]
 
 [Params.widgets]
   recent_num = 5
