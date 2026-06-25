@@ -33,3 +33,12 @@
 {{ if .Site.Params.CustomHeadHTML }}
     {{ .Site.Params.CustomHeadHTML | safeHTML }}
 {{ end }}
+<style>
+  [data-theme="dark"] .logo__img {
+    filter: invert(1);
+  }
+  .logo__img {
+    height: 60px;
+    width: auto;
+  }
+</style>
