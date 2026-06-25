@@ -1,6 +1,7 @@
 baseurl = "https://miradasiatica.github.io/mirada-asiatica/"
 title = "Mirada Asiática"
 languageCode = "es-es"
+defaultContentLanguage = "es"
 theme = "roadster"
 
 [pagination]
