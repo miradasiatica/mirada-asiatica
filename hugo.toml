@@ -3,7 +3,6 @@ title = "Mirada Asiática"
 languageCode = "es-es"
 defaultContentLanguage = "es"
 theme = "roadster"
-highlightColor = "#990000"
 
 [pagination]
   pagerSize = 10
@@ -51,6 +50,7 @@ highlightColor = "#990000"
     weight = 7
 
 [Params]
+highlightColor = "#990000"
   description = "Blog sobre cine asiático: reseñas, noticias y festivales"
   opengraph = true
   readmore = false
