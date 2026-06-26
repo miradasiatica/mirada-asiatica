@@ -20,8 +20,6 @@
   </a>
   {{ end }}
 </div>
-{{- end }}
-
 <style>
 .poster-strip {
   display: grid;
@@ -51,15 +49,30 @@
   background: #3a1015;
 }
 </style>
+{{- end }}
 
-{{ $paginator := (.Paginate $pages) }}
-{{ range $paginator.Pages }}
+{{/* Última reseña por sección, ordenadas por fecha de su reseña más reciente */}}
+{{ $secciones := slice "Japón" "Corea" "China" "Terror" "Clásicos" "Festivales" }}
+{{ $ultimasPorSeccion := slice }}
+
+{{ range $secciones }}
+  {{ $seccion := . }}
+  {{ $enSeccion := where $pages "Params.categories" "intersect" (slice $seccion) }}
+  {{ with index $enSeccion 0 }}
+    {{ $ultimasPorSeccion = $ultimasPorSeccion | append . }}
+  {{ end }}
+{{ end }}
+
+{{/* Ordenar por fecha descendente */}}
+{{ $ultimasPorSeccion = sort $ultimasPorSeccion "Date" "desc" }}
+
+{{ range $ultimasPorSeccion }}
 {{- .Render "summary" }}
 {{ end }}
 
 {{ partial "author-strip.html" . }}
 
-{{- if and (eq $paginator.TotalNumberOfElements 0) (not $.Content) }}
+{{- if eq (len $ultimasPorSeccion) 0 }}
 <div class="warning">
 {{ partial "svg/files.svg" (dict "class" "warning__icon") }}
 <h3 class="warning__headline">{{ T "noposts_warning_title" | safeHTML }}</h3>
@@ -70,5 +83,4 @@
 </div>
 {{ end }}
 </main>
-{{ partial "pagination.html" . }}
 {{ end }}
