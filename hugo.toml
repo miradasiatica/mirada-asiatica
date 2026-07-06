@@ -37,8 +37,8 @@ theme = "roadster"
     url = "/categories/china/"
     weight = 4
   [[menu.main]]
-    name = "Terror"
-    url = "/categories/terror/"
+    name = "Más Asia"
+    url = "/categories/mas-asia/"
     weight = 5
   [[menu.main]]
     name = "Clásicos"

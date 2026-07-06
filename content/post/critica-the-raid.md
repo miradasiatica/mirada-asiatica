@@ -3,9 +3,13 @@ title: "Crítica de The Raid"
 date: 2026-07-06
 draft: false
 categories:
+  - Más Asia
+
+home_section: "Más Asia"
+
+tags:
   - Indonesia
   - Acción
-tags:
   - artes marciales
   - pencak silat
   - Gareth Evans
