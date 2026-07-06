@@ -1,6 +1,7 @@
 ---
 title: "Crítica de The Raid"
-draft: true
+date: 2026-07-06
+draft: false
 categories:
   - Indonesia
   - Acción
