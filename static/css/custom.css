@@ -1,0 +1,46 @@
+/* Diseño amplio para escritorio */
+@media screen and (min-width: 901px) {
+  .container--outer {
+    width: calc(100% - 40px);
+    max-width: 1400px;
+    margin: 20px auto;
+    box-shadow: none;
+  }
+
+  .header__container {
+    max-width: none;
+  }
+
+  .main {
+    flex: 1 1 auto;
+  }
+
+  .sidebar {
+    flex: 0 0 300px;
+    margin-left: 2.5%;
+  }
+
+  .widget-afiliados .afiliados-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .widget-afiliados .afiliados-item {
+    width: 100%;
+    max-width: 260px;
+    margin: 0 auto;
+  }
+}
+
+/* Dos carátulas por fila solo en móvil */
+@media screen and (max-width: 767px) {
+  .widget-afiliados .afiliados-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .widget-afiliados .afiliados-item {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+  }
+}

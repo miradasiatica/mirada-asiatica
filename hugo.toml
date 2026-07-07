@@ -41,15 +41,20 @@ theme = "roadster"
     url = "/categories/mas-asia/"
     weight = 5
   [[menu.main]]
+    name = "Series"
+    url = "/categories/series/"
+    weight = 6
+  [[menu.main]]
     name = "Clásicos"
     url = "/categories/clasicos/"
-    weight = 6
+    weight = 7
   [[menu.main]]
     name = "Festivales"
     url = "/categories/festivales/"
-    weight = 7
+    weight = 8
 
 [Params]
+customCSS = ["css/custom.css"]
 highlightColor = "#990000"
   description = "Blog sobre cine asiático: reseñas, noticias y festivales"
   opengraph = true
