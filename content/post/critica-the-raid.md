@@ -18,6 +18,7 @@ tags:
 authors:
   - alberto-peralta
 thumbnail: "img/posters/the-raid.webp"
+hero_image: "img/heroes/the-raid-horizontal.jpg"
 ---
 
 **Mi nota: 3,5/5**
