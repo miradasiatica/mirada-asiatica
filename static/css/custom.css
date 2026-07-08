@@ -44,3 +44,21 @@
     margin: 0;
   }
 }
+
+/* Cabecera horizontal en páginas individuales */
+.post__thumbnail--hero {
+  width: 100%;
+  max-width: none;
+  margin: 0 0 1.25rem;
+}
+
+.post__thumbnail--hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Separación entre el tráiler y Mi opinión */
+.post__content h2[id^="mi-opin"] {
+  margin-top: 2rem;
+}

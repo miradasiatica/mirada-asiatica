@@ -1,0 +1,39 @@
+{{- $class := .class }}
+{{- $image := .page.Params.thumbnail }}
+{{- $isHero := false }}
+
+{{- if eq $class "post" }}
+        {{- with .page.Params.hero_image }}
+                {{- $image = . }}
+                {{- $isHero = true }}
+        {{- end }}
+{{- end }}
+
+{{- with $image }}
+        {{- $visibility := $.page.Site.Params.thumbnail.visibility | default (slice "list" "post") }}
+
+        {{- $valueType := printf "%T" . }}
+        {{- $isMap := in $valueType "map" }}
+        {{- $src := . }}
+
+        {{- if $isMap }}
+                {{- $visibility = default (slice "list" "post") (default $.page.Site.Params.thumbnail.visibility .visibility) }}
+                {{- $src = .src }}
+        {{- end }}
+
+        {{- if in $visibility $class }}
+        <figure class="{{ with $class }}{{ . }}__thumbnail {{ end }}thumbnail{{ if $isHero }} post__thumbnail--hero{{ end }}">
+                {{- if eq $class "list" }}
+                <a class="thumbnail__link" href="{{ $.page.RelPermalink }}">
+                {{- end }}
+
+                <img class="thumbnail__image"
+                     src="{{ $src | relURL }}"
+                     alt="{{ $.page.Title }}">
+
+                {{- if eq $class "list" }}
+                </a>
+                {{- end }}
+        </figure>
+        {{- end }}
+{{- end }}
