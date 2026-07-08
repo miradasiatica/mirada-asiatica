@@ -1,6 +1,7 @@
 ---
 title: "Crítica de Porco Rosso"
-draft: true
+date: 2026-07-08
+draft: false
 categories:
   - Japón
   - Clásicos
