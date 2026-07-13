@@ -1,5 +1,7 @@
 <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Params.Description }}{{ end }}">
 
+<meta name="robots" content="max-image-preview:large">
+
 {{- if .Site.Params.opengraph }}
     {{ template "_internal/opengraph.html" . }}
 {{- end }}
