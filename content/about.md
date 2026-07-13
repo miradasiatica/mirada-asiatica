@@ -5,8 +5,18 @@ sidebar: false
 menu: main
 ---
 
-**Mirada Asiática** es una publicación dedicada al cine de Japón, Corea, China y otros países de Asia.
+**Mirada Asiática** es una publicación dedicada al cine y las series de Japón, Corea, China y otros países de Asia.
 
 Aquí encontrarás reseñas, noticias, análisis de cineastas y recorridos por las distintas cinematografías asiáticas, con un enfoque que combina rigor, contexto y una mirada personal.
 
 El objetivo es construir un espacio especializado y cercano, útil tanto para quienes ya disfrutan del cine asiático como para quienes quieren descubrir nuevas películas y directores.
+
+## Contacto
+
+Correo: hola@miradasiatica.com
+
+Bluesky: [@miradasiatica.bsky.social](https://bsky.app/profile/miradasiatica.bsky.social)
+
+X: [@miradasiatica](https://x.com/miradasiatica)
+
+Letterboxd: [miradasiatica](https://letterboxd.com/miradasiatica/)
