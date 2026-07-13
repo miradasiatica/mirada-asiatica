@@ -58,6 +58,7 @@ customCSS = ["css/custom.css"]
 highlightColor = "#990000"
   description = "Blog sobre cine asiático: reseñas, noticias y festivales"
   opengraph = true
+  schema = true
   readmore = false
   authorbox = true
   pager = true
