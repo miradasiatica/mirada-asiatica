@@ -26,7 +26,7 @@ theme = "roadster"
     weight = 1
   [[menu.main]]
     name = "Japón"
-    url = "/categories/japon/"
+    url = "/categories/japón/"
     weight = 2
   [[menu.main]]
     name = "Corea"
@@ -38,7 +38,7 @@ theme = "roadster"
     weight = 4
   [[menu.main]]
     name = "Más Asia"
-    url = "/categories/mas-asia/"
+    url = "/categories/más-asia/"
     weight = 5
   [[menu.main]]
     name = "Series"
@@ -46,7 +46,7 @@ theme = "roadster"
     weight = 6
   [[menu.main]]
     name = "Clásicos"
-    url = "/categories/clasicos/"
+    url = "/categories/clásicos/"
     weight = 7
   [[menu.main]]
     name = "Festivales"
