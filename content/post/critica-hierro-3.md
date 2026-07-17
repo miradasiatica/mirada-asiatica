@@ -1,14 +1,13 @@
 ---
-title: "Crítica de Hierro 3"
-description: "Reseña de Hierro 3, la película de Kim Ki-duk sobre el silencio, la invisibilidad y una extraña intimidad nacida en casas ajenas."
+title: Crítica de Hierro 3
+description: Reseña de Hierro 3, la película de Kim Ki-duk sobre el silencio, la
+  invisibilidad y una extraña intimidad nacida en casas ajenas.
 date: 2026-07-10
 draft: false
 categories:
   - Corea
   - Clásicos
-
-home_section: "Corea"
-
+home_section: Corea
 tags:
   - Hierro 3
   - Bin-jip
@@ -21,17 +20,16 @@ tags:
   - Joo Jin-mo
 authors:
   - alberto-peralta
-thumbnail: "img/posters/hierro-3.jpg"
-hero_image: "img/heroes/hierro-3-horizontal.jpg"
+thumbnail: img/posters/hierro-3.jpg
+hero_image: img/heroes/hierro-3-horizontal.jpg
 ---
-
 **Mi nota: 4,5/5**
 
-★★★★☆
+★★★★½☆
 
 *Hierro 3* transforma una historia de intrusos, casas vacías y amantes silenciosos en una fábula extraña, delicada y cada vez más irreal sobre la invisibilidad.
 
-<!--more-->
+
 
 ## Ficha técnica
 
