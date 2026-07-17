@@ -51,7 +51,7 @@
 </style>
 {{- end }}
 
-{{/* Última reseña asignada a cada bloque mediante home_section */}}
+{{/* Hasta 3 reseñas más recientes por bloque mediante home_section */}}
 {{ $secciones := slice "Japón" "Corea" "China" "Más Asia" "Series" "Clásicos" "Festivales" }}
 {{ $ultimasPorSeccion := slice }}
 
@@ -59,8 +59,8 @@
   {{ $seccion := . }}
   {{ $enSeccion := where $pages "Params.home_section" $seccion }}
 
-  {{ if gt (len $enSeccion) 0 }}
-    {{ $ultimasPorSeccion = $ultimasPorSeccion | append (index $enSeccion 0) }}
+  {{ range first 3 $enSeccion }}
+    {{ $ultimasPorSeccion = $ultimasPorSeccion | append . }}
   {{ end }}
 {{ end }}
 
