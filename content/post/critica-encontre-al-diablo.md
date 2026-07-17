@@ -1,15 +1,14 @@
 ---
-title: "Crítica de Encontré al diablo"
-slug: "encontre-al-diablo"
-description: "Reseña de Encontré al diablo, el thriller surcoreano de Kim Jee-woon sobre una venganza que se pudre desde dentro."
+title: Crítica de Encontré al diablo
+slug: encontre-al-diablo
+description: Reseña de Encontré al diablo, el thriller surcoreano de Kim
+  Jee-woon sobre una venganza que se pudre desde dentro.
 date: 2026-07-17
 draft: true
 categories:
   - Corea
   - Clásicos
-
-home_section: "Corea"
-
+home_section: Corea
 tags:
   - Encontré al diablo
   - I Saw the Devil
@@ -21,17 +20,16 @@ tags:
   - Choi Min-sik
 authors:
   - alberto-peralta
-thumbnail: "img/posters/encontre-al-diablo.jpg"
-hero_image: "img/heroes/encontre-al-diablo-horizontal.jpg"
+thumbnail: img/posters/encontre-al-diablo.jpg
+hero_image: img/heroes/encontre-al-diablo-horizontal.jpg
 ---
-
 **Mi nota: 4,5/5**
 
 ★★★★½
 
 *Encontré al diablo* es un descenso al infierno moral de la venganza, una película feroz que no ofrece alivio, solo una resaca de espanto.
 
-<!--more-->
+
 
 ## Ficha técnica
 
