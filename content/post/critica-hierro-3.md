@@ -29,7 +29,7 @@ hero_image: img/heroes/hierro-3-horizontal.jpg
 
 *Hierro 3* transforma una historia de intrusos, casas vacías y amantes silenciosos en una fábula extraña, delicada y cada vez más irreal sobre la invisibilidad.
 
-
+<!--more-->
 
 ## Ficha técnica
 

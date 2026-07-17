@@ -49,7 +49,9 @@ content:
         type: image
       - name: body
         label: Contenido
-        type: rich-text
+        type: code
+        options:
+          format: markdown
 
   - name: about
     label: Sobre Mirada Asiática
