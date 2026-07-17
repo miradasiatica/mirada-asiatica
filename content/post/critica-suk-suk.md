@@ -1,8 +1,8 @@
 ---
 title: "Crítica de Suk Suk"
 description: "Reseña de Suk Suk (Twilight's Kiss), la película de Ray Yeung sobre el deseo tardío, la clandestinidad y la vejez en Hong Kong."
-draft: false
 date: 2026-07-09
+draft: false
 categories:
   - China
 
