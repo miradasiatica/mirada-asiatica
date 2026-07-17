@@ -1,0 +1,65 @@
+content:
+  - name: reviews
+    label: Reseñas
+    type: collection
+    path: content/post
+    format: yaml-frontmatter
+    view:
+      primary: title
+      sort: date
+      order: desc
+    fields:
+      - name: title
+        label: Título
+        type: string
+      - name: slug
+        label: Slug (solo si la URL debe ser distinta del nombre de archivo)
+        type: string
+        required: false
+      - name: description
+        label: Descripción
+        type: text
+      - name: date
+        label: Fecha
+        type: date
+      - name: draft
+        label: Borrador
+        type: boolean
+        default: true
+      - name: categories
+        label: Categorías
+        type: string
+        list: true
+      - name: home_section
+        label: Sección de portada
+        type: string
+      - name: tags
+        label: Etiquetas
+        type: string
+        list: true
+      - name: authors
+        label: Autores
+        type: string
+        list: true
+      - name: thumbnail
+        label: Cartel
+        type: image
+      - name: hero_image
+        label: Imagen horizontal
+        type: image
+      - name: body
+        label: Contenido
+        type: rich-text
+
+  - name: about
+    label: Sobre Mirada Asiática
+    type: file
+    path: content/about.md
+    format: yaml-frontmatter
+    fields:
+      - name: title
+        label: Título
+        type: string
+      - name: body
+        label: Contenido
+        type: rich-text
