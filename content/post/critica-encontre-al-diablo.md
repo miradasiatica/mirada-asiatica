@@ -29,7 +29,7 @@ hero_image: img/heroes/encontre-al-diablo-horizontal.jpg
 
 *Encontré al diablo* es un descenso al infierno moral de la venganza, una película feroz que no ofrece alivio, solo una resaca de espanto.
 
-
+<!--more-->
 
 ## Ficha técnica
 
