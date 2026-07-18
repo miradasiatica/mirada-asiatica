@@ -12,7 +12,6 @@ home_section: "Corea"
 tags:
   - Así aprenderás
   - Teach You a Lesson
-  - Corea del Sur
   - series
   - thriller
   - acoso escolar

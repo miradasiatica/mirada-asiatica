@@ -11,7 +11,6 @@ home_section: "China"
 
 tags:
   - Wong Kar-wai
-  - Hong Kong
   - romance
   - Chungking Express
   - Takeshi Kaneshiro

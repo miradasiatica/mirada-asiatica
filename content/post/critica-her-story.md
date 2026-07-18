@@ -9,7 +9,6 @@ categories:
 home_section: China
 tags:
   - Shao Yihui
-  - China
   - Shanghái
   - comedia
   - Her Story

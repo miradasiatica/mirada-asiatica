@@ -9,7 +9,6 @@ categories:
 home_section: "Más Asia"
 
 tags:
-  - Indonesia
   - Acción
   - artes marciales
   - pencak silat

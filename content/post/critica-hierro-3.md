@@ -11,7 +11,6 @@ home_section: Corea
 tags:
   - Hierro 3
   - Bin-jip
-  - Corea del Sur
   - drama
   - romance
   - Kim Ki-duk

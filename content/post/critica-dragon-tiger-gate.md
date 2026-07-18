@@ -12,7 +12,6 @@ home_section: "China"
 tags:
   - Dragon Tiger Gate
   - Lung Fu Mun
-  - Hong Kong
   - artes marciales
   - Wilson Yip
   - Donnie Yen

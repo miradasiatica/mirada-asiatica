@@ -10,7 +10,6 @@ home_section: "China"
 
 tags:
   - Ray Yeung
-  - Hong Kong
   - drama
   - Suk Suk
   - Twilight's Kiss

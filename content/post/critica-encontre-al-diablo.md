@@ -13,7 +13,6 @@ tags:
   - Encontré al diablo
   - I Saw the Devil
   - Akmareul boatda
-  - Corea del Sur
   - thriller
   - Kim Jee-woon
   - Lee Byung-hun
