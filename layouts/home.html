@@ -51,29 +51,16 @@
 </style>
 {{- end }}
 
-{{/* Hasta 3 reseñas más recientes por bloque mediante home_section */}}
-{{ $secciones := slice "Japón" "Corea" "China" "Más Asia" "Series" "Clásicos" "Festivales" }}
-{{ $ultimasPorSeccion := slice }}
+{{/* Lista cronologica paginada de todas las resenas, sin agrupar por seccion */}}
+{{ $paginator := .Paginate $pages }}
 
-{{ range $secciones }}
-  {{ $seccion := . }}
-  {{ $enSeccion := where $pages "Params.home_section" $seccion }}
-
-  {{ range first 3 $enSeccion }}
-    {{ $ultimasPorSeccion = $ultimasPorSeccion | append . }}
-  {{ end }}
-{{ end }}
-
-{{/* Ordenar las seleccionadas por fecha descendente */}}
-{{ $ultimasPorSeccion = sort $ultimasPorSeccion "Date" "desc" }}
-
-{{ range $ultimasPorSeccion }}
+{{ range $paginator.Pages }}
 {{- .Render "summary" }}
 {{ end }}
 
 {{ partial "author-strip.html" . }}
 
-{{- if eq (len $ultimasPorSeccion) 0 }}
+{{- if eq (len $pages) 0 }}
 <div class="warning">
 {{ partial "svg/files.svg" (dict "class" "warning__icon") }}
 <h3 class="warning__headline">{{ T "noposts_warning_title" | safeHTML }}</h3>
@@ -84,4 +71,5 @@
 </div>
 {{ end }}
 </main>
+{{ partial "pagination.html" . }}
 {{ end }}
