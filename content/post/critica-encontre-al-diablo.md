@@ -3,7 +3,7 @@ title: Crítica de Encontré al diablo
 slug: encontre-al-diablo
 description: Reseña de Encontré al diablo, el thriller surcoreano de Kim
   Jee-woon sobre una venganza que se pudre desde dentro.
-date: 2026-07-17
+date: 2026-07-17T23:23:49+02:00
 draft: false
 categories:
   - Corea

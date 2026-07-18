@@ -1,7 +1,7 @@
 ---
 title: "Crítica de Chungking Express"
 description: "Reseña de Chungking Express, la película de Wong Kar-wai sobre la caducidad amorosa y el vértigo urbano en el Hong Kong de 1994."
-date: 2026-07-07
+date: 2026-07-08T19:15:59+02:00
 draft: false
 categories:
   - China

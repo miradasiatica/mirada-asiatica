@@ -2,7 +2,7 @@
 title: Crítica de Hierro 3
 description: Reseña de Hierro 3, la película de Kim Ki-duk sobre el silencio, la
   invisibilidad y una extraña intimidad nacida en casas ajenas.
-date: 2026-07-10
+date: 2026-07-10T17:19:28+02:00
 draft: false
 categories:
   - Corea
