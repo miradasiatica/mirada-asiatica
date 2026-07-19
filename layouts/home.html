@@ -57,10 +57,14 @@
 }
 @media screen and (max-width: 620px) {
   .poster-strip {
+    grid-template-columns: repeat(5, 1fr);
     gap: 5px;
     margin-left: -20px;
     margin-right: -20px;
     width: calc(100% + 40px);
+  }
+  .poster-strip__item:nth-child(6) {
+    display: none;
   }
 }
 </style>
