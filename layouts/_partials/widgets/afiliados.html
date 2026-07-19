@@ -1,6 +1,7 @@
 {{- with .Site.Data.afiliados }}
 <div class="widget-afiliados widget">
   <h4 class="widget__title">Para tu estantería</h4>
+  <p class="meta widget-afiliados__disclosure"><a href="{{ "about/" | relURL }}#afiliación">Recomendaciones de Alberto · enlaces de afiliado</a></p>
   <div class="widget__content">
     <div class="afiliados-grid">
       {{- range . }}
@@ -12,6 +13,9 @@
   </div>
 </div>
 <style>
+.widget-afiliados__disclosure {
+  margin: 0.25rem 0 0.75rem;
+}
 .afiliados-grid {
   display: grid;
   grid-template-columns: 1fr;
