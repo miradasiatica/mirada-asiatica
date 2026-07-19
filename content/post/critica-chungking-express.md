@@ -23,9 +23,7 @@ thumbnail: "img/posters/chungking-express.jpg"
 hero_image: "img/heroes/chungking-express-horizontal.jpg"
 ---
 
-**Mi nota: 5/5**
-
-★★★★★
+{{< rating "5" >}}
 
 *Chungking Express* convierte dos historias de desamor en una celebración ligera, melancólica y febril de la caducidad amorosa en el Hong Kong de 1994.
 

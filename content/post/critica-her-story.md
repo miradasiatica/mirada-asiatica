@@ -23,9 +23,7 @@ authors:
 thumbnail: img/posters/her-story.jpg
 hero_image: img/heroes/her-story-horizontal.jpg
 ---
-**Mi nota: 4/5**
-
-★★★★☆
+{{< rating "4" >}}
 
 *Her Story* encuentra en la comedia urbana una forma afilada y cálida de hablar sobre maternidad, amistad, trabajo invisible y fatiga contemporánea sin renunciar al placer de las réplicas ni al pulso emocional.
 

@@ -24,9 +24,7 @@ thumbnail: "img/posters/asi-aprenderas.jpg"
 hero_image: "img/heroes/asi-aprenderas-horizontal.jpg"
 ---
 
-**Mi nota: 4/5**
-
-★★★★☆
+{{< rating "4" >}}
 
 *Así aprenderás* convierte el acoso escolar y la impotencia institucional en un thriller coreano de castigos expeditivos, tan adictivo como moralmente incómodo.
 

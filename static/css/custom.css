@@ -62,3 +62,23 @@
 .post__content h2[id^="mi-opin"] {
   margin-top: 2rem;
 }
+
+/* Valoracion en estrellas: doradas y mas grandes que el texto que las envuelve */
+.rating {
+  color: #FFD700;
+  font-size: 1.3em;
+  letter-spacing: 0.05em;
+}
+
+/* Oculta visualmente pero mantiene el texto accesible para lectores de pantalla */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

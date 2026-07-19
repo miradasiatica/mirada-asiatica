@@ -23,9 +23,7 @@ thumbnail: "img/posters/dragon-tiger-gate.jpg"
 hero_image: "img/heroes/dragon-tiger-gate-horizontal.jpg"
 ---
 
-**Mi nota: 3/5**
-
-★★★☆☆
+{{< rating "3" >}}
 
 *Dragon Tiger Gate* convierte un folletín de hermanos enfrentados y mafiosos de cómic en un espectáculo marcial vistoso y liviano, con coreografías imaginativas pero demasiado despegadas del suelo.
 

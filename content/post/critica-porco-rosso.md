@@ -23,9 +23,7 @@ thumbnail: "img/posters/porco-rosso.jpg"
 hero_image: "img/heroes/porco-rosso-horizontal.jpg"
 ---
 
-**Mi nota: 5/5**
-
-★★★★★
+{{< rating "5" >}}
 
 *Porco Rosso* demuestra hasta qué punto Hayao Miyazaki puede mezclar aventura, melancolía y rechazo del fascismo sin perder ligereza ni sentido del espectáculo.
 

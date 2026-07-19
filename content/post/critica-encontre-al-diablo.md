@@ -22,9 +22,7 @@ authors:
 thumbnail: img/posters/encontre-al-diablo.jpg
 hero_image: img/heroes/encontre-al-diablo-horizontal.jpg
 ---
-**Mi nota: 4,5/5**
-
-★★★★½
+{{< rating "4,5" >}}
 
 *Encontré al diablo* es un descenso al infierno moral de la venganza, una película feroz que no ofrece alivio, solo una resaca de espanto.
 

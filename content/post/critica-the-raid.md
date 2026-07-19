@@ -21,9 +21,7 @@ thumbnail: "img/posters/the-raid.webp"
 hero_image: "img/heroes/the-raid-horizontal.jpg"
 ---
 
-**Mi nota: 3,5/5**
-
-★★★½☆
+{{< rating "3,5" >}}
 
 *The Raid* es una película de acción indonesia dirigida por Gareth Evans que se ha convertido, con bastante justicia, en un título de culto del cine de artes marciales asiático.
 

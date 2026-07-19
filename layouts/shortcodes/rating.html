@@ -1,0 +1,8 @@
+{{- $raw := .Get 0 -}}
+{{- $hasHalf := strings.Contains $raw "," -}}
+{{- $intPart := $raw -}}
+{{- if $hasHalf }}{{ $intPart = index (strings.Split $raw ",") 0 }}{{ end -}}
+{{- $full := int $intPart -}}
+{{- $empty := sub 5 $full -}}
+{{- if $hasHalf }}{{ $empty = sub $empty 1 }}{{ end -}}
+<span class="rating" aria-hidden="true">{{ strings.Repeat $full "★" }}{{ if $hasHalf }}½{{ end }}{{ strings.Repeat $empty "☆" }}</span><span class="sr-only">Nota: {{ $raw }}/5</span>

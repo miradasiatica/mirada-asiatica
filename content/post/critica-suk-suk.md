@@ -23,9 +23,7 @@ thumbnail: "img/posters/suk-suk.jpg"
 hero_image: "img/heroes/suk-suk-horizontal.jpg"
 ---
 
-**Mi nota: 4,5/5**
-
-★★★★½
+{{< rating "4,5" >}}
 
 *Suk Suk* observa con delicadeza el deseo, la lealtad y el peso de toda una vida en dos hombres mayores que se descubren demasiado tarde en Hong Kong.
 
