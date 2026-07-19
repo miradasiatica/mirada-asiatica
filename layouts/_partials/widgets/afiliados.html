@@ -6,7 +6,15 @@
     <div class="afiliados-grid">
       {{- range . }}
       <a class="afiliados-item" href="{{ .enlace }}" target="_blank" rel="nofollow sponsored noopener" title="{{ .titulo }}">
-        <img src="{{ .imagen | relURL }}" alt="{{ .titulo }}">
+        <span class="afiliados-item__format" style="background-color: {{ .color }}">{{ .formato }}</span>
+        <span class="afiliados-item__cover">
+          <img src="{{ .imagen }}" alt="{{ .titulo }}" loading="lazy">
+        </span>
+        <span class="afiliados-item__info">
+          <span class="afiliados-item__title">{{ .titulo }}</span>
+          <span class="afiliados-item__subtitle">{{ .subtitulo }}</span>
+          <span class="afiliados-item__year">{{ .anio }}</span>
+        </span>
       </a>
       {{- end }}
     </div>
@@ -22,17 +30,57 @@
   gap: 12px;
 }
 .afiliados-item {
-  display: block;
+  display: flex;
+  flex-direction: column;
   border-radius: 4px;
   overflow: hidden;
+  background: var(--color-surface-alt, #f5f5f5);
   transition: opacity 0.2s;
 }
 .afiliados-item:hover { opacity: 0.85; }
-.afiliados-item img {
-  width: 100%;
-  aspect-ratio: 2/3;
-  object-fit: cover;
+.afiliados-item__format {
   display: block;
+  padding: 5px 0;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+.afiliados-item__cover {
+  display: block;
+  aspect-ratio: 4/5;
+  background: #fff;
+}
+.afiliados-item__cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+.afiliados-item__info {
+  display: block;
+  padding: 8px 10px 10px;
+}
+.afiliados-item__title {
+  display: block;
+  font-weight: 700;
+  font-size: 0.85rem;
+  line-height: 1.25;
+  color: var(--color-text);
+}
+.afiliados-item__subtitle {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin-top: 2px;
+}
+.afiliados-item__year {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--color-text-subtle);
+  margin-top: 4px;
 }
 </style>
 {{- end }}
