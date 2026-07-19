@@ -3,6 +3,7 @@ title: Crítica de Her Story
 description: Reseña de Her Story, la película de Shao Yihui sobre la amistad, la
   maternidad y la comedia feminista en el Shanghái contemporáneo.
 date: 2026-07-18T00:02:42+02:00
+rating: 4.0
 draft: false
 categories:
   - China

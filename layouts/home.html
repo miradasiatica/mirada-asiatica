@@ -8,9 +8,12 @@
 
 {{ $pages := (where .Site.RegularPages "Type" "in" .Site.Params.mainSections).ByDate.Reverse }}
 
+{{/* Franja superior: las 6 mejor valoradas; empate por nota se resuelve por fecha (sort es estable y $pages ya viene de mas reciente a mas antigua) */}}
+{{ $topRated := sort $pages "Params.rating" "desc" }}
+
 {{- if ge (len $pages) 1 }}
 <div class="poster-strip">
-  {{ range first 6 $pages }}
+  {{ range first 6 $topRated }}
   <a href="{{ .RelPermalink }}" class="poster-strip__item" title="{{ .Title }}">
     {{ with .Params.thumbnail }}
     {{- $src := . | relURL }}
@@ -51,6 +54,14 @@
   width: 100%;
   height: 100%;
   background: #3a1015;
+}
+@media screen and (max-width: 620px) {
+  .poster-strip {
+    gap: 5px;
+    margin-left: -20px;
+    margin-right: -20px;
+    width: calc(100% + 40px);
+  }
 }
 </style>
 {{- end }}
