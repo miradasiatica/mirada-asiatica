@@ -4,7 +4,7 @@
   <a class="summary-row__thumb" href="{{ .RelPermalink }}">
     {{- $src := $thumbnail | relURL }}
     {{- with resources.Get $thumbnail }}
-      {{- $src = (.Resize "320x q80").RelPermalink }}
+      {{- $src = (.Resize "416x q80").RelPermalink }}
     {{- end }}
     <img src="{{ $src }}" alt="{{ .Title }}">
   </a>
@@ -41,7 +41,7 @@
 }
 .summary-row__thumb {
   flex-shrink: 0;
-  width: clamp(84px, 24%, 130px);
+  width: clamp(109px, 31.2%, 169px);
 }
 .summary-row__thumb img {
   width: 100%;
