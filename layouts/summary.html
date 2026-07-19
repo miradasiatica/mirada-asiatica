@@ -2,7 +2,11 @@
 <div class="summary-row">
   {{- if $thumbnail := .Params.thumbnail }}
   <a class="summary-row__thumb" href="{{ .RelPermalink }}">
-    <img src="{{ $thumbnail | relURL }}" alt="{{ .Title }}">
+    {{- $src := $thumbnail | relURL }}
+    {{- with resources.Get $thumbnail }}
+      {{- $src = (.Resize "320x q80").RelPermalink }}
+    {{- end }}
+    <img src="{{ $src }}" alt="{{ .Title }}">
   </a>
   {{- end }}
   <div class="summary-row__body">

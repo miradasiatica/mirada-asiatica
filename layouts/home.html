@@ -13,7 +13,11 @@
   {{ range first 6 $pages }}
   <a href="{{ .RelPermalink }}" class="poster-strip__item" title="{{ .Title }}">
     {{ with .Params.thumbnail }}
-    <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+    {{- $src := . | relURL }}
+    {{- with resources.Get . }}
+      {{- $src = (.Resize "320x q80").RelPermalink }}
+    {{- end }}
+    <img src="{{ $src }}" alt="{{ $.Title }}">
     {{ else }}
     <div class="poster-strip__placeholder"></div>
     {{ end }}
