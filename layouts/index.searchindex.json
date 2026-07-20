@@ -1,0 +1,17 @@
+{{- $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections -}}
+{{- $items := slice -}}
+{{- range $pages -}}
+  {{- $excerpt := .Summary | plainify -}}
+  {{- $excerpt = $excerpt | replaceRE `[★☆½]+` "" -}}
+  {{- $excerpt = $excerpt | replaceRE `Nota: [0-9,]+/5` "" -}}
+  {{- $excerpt = strings.TrimSpace $excerpt -}}
+  {{- $item := dict
+        "title" .Title
+        "url" .RelPermalink
+        "excerpt" $excerpt
+        "categories" (.Params.categories | default slice)
+        "tags" (.Params.tags | default slice)
+  -}}
+  {{- $items = $items | append $item -}}
+{{- end -}}
+{{- $items | jsonify -}}
