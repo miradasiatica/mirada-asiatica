@@ -8,7 +8,6 @@ rating: 4.5
 draft: false
 categories:
   - Corea
-  - Clásicos
 home_section: Corea
 tags:
   - Encontré al diablo
