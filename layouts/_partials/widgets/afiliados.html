@@ -9,7 +9,7 @@
       <a class="afiliados-item" href="{{ .enlace }}" target="_blank" rel="nofollow sponsored noopener" title="{{ .titulo }}">
         <span class="afiliados-item__format" style="background-color: {{ $highlightColor }}">{{ .formato }}</span>
         <span class="afiliados-item__cover">
-          <img src="{{ .imagen }}" alt="{{ .titulo }}" loading="lazy">
+          <img src="{{ .imagen | relURL }}" alt="{{ .titulo }}" loading="lazy">
         </span>
         <span class="afiliados-item__info">
           <span class="afiliados-item__title">{{ .titulo }}</span>
@@ -19,11 +19,15 @@
       </a>
       {{- end }}
     </div>
+    <p class="meta widget-afiliados__tmdb-attribution">Pósters de película cedidos por <a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TMDB</a>. Este producto usa la API de TMDB pero no está respaldado ni certificado por TMDB.</p>
   </div>
 </div>
 <style>
 .widget-afiliados__disclosure {
   margin: 0.25rem 0 0.75rem;
+}
+.widget-afiliados__tmdb-attribution {
+  margin: 0.75rem 0 0;
 }
 .afiliados-grid {
   display: grid;
