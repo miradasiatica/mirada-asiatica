@@ -1,15 +1,13 @@
 ---
-title: "Crítica de Decision to Leave"
-description: "Reseña de Decision to Leave, el thriller de Park Chan-wook sobre una investigación convertida en obsesión romántica y extravío moral."
+title: Crítica de Decision to Leave
+slug: decision-to-leave
+description: Reseña de Decision to Leave, el thriller de Park Chan-wook sobre
+  una investigación convertida en obsesión romántica y extravío moral.
 date: 2026-07-20
-rating: 4.0
-slug: "decision-to-leave"
-draft: true
+draft: false
 categories:
   - Corea
-
-home_section: "Corea"
-
+home_section: Corea
 tags:
   - Decision to Leave
   - Heojil kyolshim
@@ -23,8 +21,8 @@ tags:
   - cine negro
 authors:
   - alberto-peralta
-thumbnail: "https://image.tmdb.org/t/p/w500/N0rskx91Eh6aWjvBybeY6epNic.jpg"
-hero_image: "img/heroes/decision-to-leave-horizontal.jpg"
+thumbnail: https://image.tmdb.org/t/p/w500/N0rskx91Eh6aWjvBybeY6epNic.jpg
+hero_image: img/heroes/decision-to-leave-horizontal.jpg
 ---
 {{< rating "4" >}}
 
