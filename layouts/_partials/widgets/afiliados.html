@@ -1,3 +1,4 @@
+{{- $highlightColor := .Site.Params.style.vars.highlightColor | default (.Site.Params.highlightColor | default "#e22d30") -}}
 {{- with .Site.Data.afiliados }}
 <div class="widget-afiliados widget">
   <h4 class="widget__title">Para tu estantería</h4>
@@ -6,7 +7,7 @@
     <div class="afiliados-grid">
       {{- range . }}
       <a class="afiliados-item" href="{{ .enlace }}" target="_blank" rel="nofollow sponsored noopener" title="{{ .titulo }}">
-        <span class="afiliados-item__format" style="background-color: {{ .color }}">{{ .formato }}</span>
+        <span class="afiliados-item__format" style="background-color: {{ $highlightColor }}">{{ .formato }}</span>
         <span class="afiliados-item__cover">
           <img src="{{ .imagen }}" alt="{{ .titulo }}" loading="lazy">
         </span>
@@ -50,13 +51,13 @@
 }
 .afiliados-item__cover {
   display: block;
-  aspect-ratio: 4/5;
+  aspect-ratio: 2/3;
   background: #fff;
 }
 .afiliados-item__cover img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   display: block;
 }
 .afiliados-item__info {
