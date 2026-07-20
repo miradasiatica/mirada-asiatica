@@ -2,7 +2,7 @@
   subtitulo: "Hayao Miyazaki"
   formato: "Blu-ray"
   anio: 1992
-  imagen: "https://media.themoviedb.org/t/p/w500/vyCevwQl24NIUlUc3ifHQgV9QYl.jpg"
+  imagen: "https://image.tmdb.org/t/p/w500/vyCevwQl24NIUlUc3ifHQgV9QYl.jpg"
   enlace: "https://amzn.to/4fqmbuU"
 - titulo: "Pack Universo Wong Kar Wai"
   subtitulo: "Wong Kar-wai"
@@ -14,11 +14,23 @@
   subtitulo: "Park Chan-wook"
   formato: "Blu-ray"
   anio: 2003
-  imagen: "https://media.themoviedb.org/t/p/w500/45kRW1xgTq3QrZltL9mY9e9iYkH.jpg"
+  imagen: "https://image.tmdb.org/t/p/w500/45kRW1xgTq3QrZltL9mY9e9iYkH.jpg"
   enlace: "https://amzn.to/459DnjB"
 - titulo: "Decision to Leave"
   subtitulo: "Park Chan-wook"
   formato: "Blu-ray"
   anio: 2022
-  imagen: "https://media.themoviedb.org/t/p/w500/z9Tk2tkXL2zmbAuYr8staL0SZWO.jpg"
+  imagen: "https://image.tmdb.org/t/p/w500/z9Tk2tkXL2zmbAuYr8staL0SZWO.jpg"
   enlace: "https://amzn.to/4bBQHRt"
+- titulo: "Ran"
+  subtitulo: "Akira Kurosawa"
+  formato: "4K UHD"
+  anio: 1985
+  imagen: "https://image.tmdb.org/t/p/w500/feChXPgGQhhRfvkzhzoKVp8RLpQ.jpg"
+  enlace: "https://amzn.to/3T0dqjX"
+- titulo: "WKW: The Cinema of Wong Kar Wai"
+  subtitulo: "John Powers"
+  formato: "Libro"
+  anio: 2016
+  imagen: "img/afiliados/wkw-cinema-book.jpg"
+  enlace: "https://amzn.to/3R0H3Ry"
