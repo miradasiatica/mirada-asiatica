@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://miradasiatica.com/sitemap.xml
+Sitemap: https://miradasiatica.com/news-sitemap.xml
