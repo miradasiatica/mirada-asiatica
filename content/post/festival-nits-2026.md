@@ -1,12 +1,15 @@
 ---
-title: "Festival Nits 2026: una edición entre la animación, el kung-fu y el cine popular asiático"
-description: "Cobertura de la 23.ª edición del Festival Nits de Cinema Oriental de Vic (14-19 de julio de 2026): animación, kung-fu y cine popular asiático en 44 películas de nueve cinematografías asiáticas."
+title: "Festival Nits 2026: una edición entre la animación, el kung-fu y el cine
+  popular asiático"
+slug: festival-nits-2026
+description: "Cobertura de la 23.ª edición del Festival Nits de Cinema Oriental
+  de Vic (14-19 de julio de 2026): animación, kung-fu y cine popular asiático en
+  44 películas de nueve cinematografías asiáticas."
 date: 2026-07-21
-slug: "festival-nits-2026"
-draft: true
+draft: false
 categories:
   - Festivales
-home_section: "Festivales"
+home_section: Festivales
 tags:
   - Festival Nits
   - China
@@ -20,8 +23,8 @@ tags:
   - Vietnam
 authors:
   - alberto-peralta
-thumbnail: "img/posters/festival-nits-2026.jpg"
-hero_image: "img/heroes/festival-nits-2026.jpg"
+thumbnail: img/posters/festival-nits-2026.jpg
+hero_image: img/heroes/festival-nits-2026.jpg
 ---
 El Festival Nits de Cinema Oriental de Vic alcanza su 23.ª edición con una programación que vuelve a defender una idea amplia, festiva y desprejuiciada del cine asiático. Entre el 14 y el 19 de julio, sus pantallas reúnen películas de acción, animación, comedia, fantasía, artes marciales y cine familiar procedentes de algunas de las principales cinematografías del continente.
 
