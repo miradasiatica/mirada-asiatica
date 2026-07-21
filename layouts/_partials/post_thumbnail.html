@@ -22,13 +22,23 @@
         {{- end }}
 
         {{- if in $visibility $class }}
+        {{- $imgSrc := $src | relURL }}
+        {{- if $isHero }}
+                {{- with resources.Get $src }}
+                        {{- $heroMaxWidth := 2400 }}
+                        {{- if lt .Width $heroMaxWidth }}
+                                {{- $heroMaxWidth = .Width }}
+                        {{- end }}
+                        {{- $imgSrc = (.Resize (printf "%dx q80" $heroMaxWidth)).RelPermalink }}
+                {{- end }}
+        {{- end }}
         <figure class="{{ with $class }}{{ . }}__thumbnail {{ end }}thumbnail{{ if $isHero }} post__thumbnail--hero{{ end }}">
                 {{- if eq $class "list" }}
                 <a class="thumbnail__link" href="{{ $.page.RelPermalink }}">
                 {{- end }}
 
                 <img class="thumbnail__image"
-                     src="{{ $src | relURL }}"
+                     src="{{ $imgSrc }}"
                      alt="{{ $.page.Title }}">
 
                 {{- if eq $class "list" }}

@@ -100,6 +100,9 @@ title = "Mirada Asiática"
     source = "static/img/posters"
     target = "assets/img/posters"
   [[module.mounts]]
+    source = "static/img/heroes"
+    target = "assets/img/heroes"
+  [[module.mounts]]
     source = "static/css"
     target = "assets/css"
 
