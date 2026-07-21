@@ -105,6 +105,9 @@ title = "Mirada Asiática"
   [[module.mounts]]
     source = "static/css"
     target = "assets/css"
+  [[module.mounts]]
+    source = "static/img"
+    target = "assets/img"
 
 [outputFormats.SearchIndex]
   mediaType = "application/json"

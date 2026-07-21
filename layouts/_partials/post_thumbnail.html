@@ -23,13 +23,29 @@
 
         {{- if in $visibility $class }}
         {{- $imgSrc := $src | relURL }}
+        {{- $imgSrcset := "" }}
+        {{- $imgWidth := 0 }}
+        {{- $imgHeight := 0 }}
         {{- if $isHero }}
                 {{- with resources.Get $src }}
+                        {{- $res := . }}
+                        {{- $native := $res.Width }}
                         {{- $heroMaxWidth := 2400 }}
-                        {{- if lt .Width $heroMaxWidth }}
-                                {{- $heroMaxWidth = .Width }}
+                        {{- if lt $native $heroMaxWidth }}
+                                {{- $heroMaxWidth = $native }}
                         {{- end }}
-                        {{- $imgSrc = (.Resize (printf "%dx q80" $heroMaxWidth)).RelPermalink }}
+                        {{- $main := $res.Resize (printf "%dx q80" $heroMaxWidth) }}
+                        {{- $imgSrc = $main.RelPermalink }}
+                        {{- $imgWidth = $main.Width }}
+                        {{- $imgHeight = $main.Height }}
+                        {{- $srcsetParts := slice (printf "%s %dw" $main.RelPermalink $main.Width) }}
+                        {{- range (slice 480 800 1200 1600 2000) }}
+                                {{- if lt . $heroMaxWidth }}
+                                        {{- $r := $res.Resize (printf "%dx q80" .) }}
+                                        {{- $srcsetParts = $srcsetParts | append (printf "%s %dw" $r.RelPermalink $r.Width) }}
+                                {{- end }}
+                        {{- end }}
+                        {{- $imgSrcset = delimit $srcsetParts ", " }}
                 {{- end }}
         {{- end }}
         <figure class="{{ with $class }}{{ . }}__thumbnail {{ end }}thumbnail{{ if $isHero }} post__thumbnail--hero{{ end }}">
@@ -39,6 +55,19 @@
 
                 <img class="thumbnail__image"
                      src="{{ $imgSrc }}"
+                     {{- with $imgSrcset }}
+                     srcset="{{ . }}"
+                     sizes="(min-width: 1030px) 1016px, calc(100vw - 40px)"
+                     {{- end }}
+                     {{- if $isHero }}
+                     fetchpriority="high"
+                     {{- end }}
+                     {{- if $imgWidth }}
+                     width="{{ $imgWidth }}"
+                     {{- end }}
+                     {{- if $imgHeight }}
+                     height="{{ $imgHeight }}"
+                     {{- end }}
                      alt="{{ $.page.Title }}">
 
                 {{- if eq $class "list" }}

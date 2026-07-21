@@ -17,10 +17,37 @@
   <a href="{{ .RelPermalink }}" class="poster-strip__item" title="{{ .Title }}">
     {{ with .Params.thumbnail }}
     {{- $src := . | relURL }}
+    {{- $srcset := "" }}
+    {{- $w := 0 }}
+    {{- $h := 0 }}
     {{- with resources.Get . }}
-      {{- $src = (.Resize "320x q80").RelPermalink }}
+      {{- $res := . }}
+      {{- $native := $res.Width }}
+      {{- $maxW := 320 }}
+      {{- if lt $native $maxW }}
+        {{- $maxW = $native }}
+      {{- end }}
+      {{- $main := $res.Resize (printf "%dx q80" $maxW) }}
+      {{- $src = $main.RelPermalink }}
+      {{- $w = $main.Width }}
+      {{- $h = $main.Height }}
+      {{- $parts := slice (printf "%s %dw" $main.RelPermalink $main.Width) }}
+      {{- range (slice 100 160 240) }}
+        {{- if lt . $maxW }}
+          {{- $r := $res.Resize (printf "%dx q80" .) }}
+          {{- $parts = $parts | append (printf "%s %dw" $r.RelPermalink $r.Width) }}
+        {{- end }}
+      {{- end }}
+      {{- $srcset = delimit $parts ", " }}
     {{- end }}
-    <img src="{{ $src }}" alt="{{ $.Title }}">
+    <img src="{{ $src }}"
+         {{- with $srcset }}
+         srcset="{{ . }}"
+         sizes="(min-width: 1030px) 162px, 20vw"
+         {{- end }}
+         {{- if $w }} width="{{ $w }}"{{ end }}
+         {{- if $h }} height="{{ $h }}"{{ end }}
+         alt="{{ $.Title }}">
     {{ else }}
     <div class="poster-strip__placeholder"></div>
     {{ end }}

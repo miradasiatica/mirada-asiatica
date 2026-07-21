@@ -1,0 +1,38 @@
+{{- $logoTitle := .Site.Params.logo.title | default .Site.Title -}}
+{{- $logoSubtitle := .Site.Params.logo.subtitle | default .Site.Params.subtitle -}}
+{{- $logoImage := .Site.Params.logo.image -}}
+
+{{- if or $logoTitle $logoImage }}
+	{{/* Defined when logo is mixed (image + text) */}}
+	{{- $logoMix := and $logoImage $logoTitle -}}
+
+	<div class="logo{{ with $logoMix }} logo--mixed{{ end }}">
+		<a class="logo__link" href="{{ "" | relLangURL }}"{{ with $logoTitle }} title="{{ . }}"{{ end }} rel="home">
+			{{ with $logoImage -}}
+				{{- $src := . | relURL }}
+				{{- $w := 0 }}
+				{{- $h := 0 }}
+				{{- with resources.Get . }}
+					{{- $native := .Width }}
+					{{- $maxW := 320 }}
+					{{- if lt $native $maxW }}
+						{{- $maxW = $native }}
+					{{- end }}
+					{{- $logo := .Resize (printf "%dx q80 webp" $maxW) }}
+					{{- $src = $logo.RelPermalink }}
+					{{- $w = $logo.Width }}
+					{{- $h = $logo.Height }}
+				{{- end }}
+				<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="{{ $src }}" {{ if $w }}width="{{ $w }}"{{ end }} {{ if $h }}height="{{ $h }}"{{ end }}>
+				</div>
+			{{- end -}}
+			{{ with $logoTitle -}}
+				<div class="logo__item logo__text">
+					<div class="logo__title">{{ . }}</div>
+					{{ with $logoSubtitle }}<div class="logo__tagline">{{ . }}</div>{{ end }}
+				</div>
+			{{- end }}
+		</a>
+	</div>
+{{- end }}

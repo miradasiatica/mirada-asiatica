@@ -1,7 +1,16 @@
 <div class="post-product-promo">
 	<a class="post-product-promo__link" href="https://amzn.to/4gSGaVH" target="_blank" rel="nofollow sponsored noopener">
 		<span class="post-product-promo__title">Reproductor de Blu-ray recomendado</span>
-		<img class="post-product-promo__image" src="{{ "img/afiliados/panasonic-ub820.png" | relURL }}" alt="Reproductor de Blu-ray recomendado" loading="lazy">
+		{{- $src := "img/afiliados/panasonic-ub820.png" | relURL }}
+		{{- $w := 0 }}
+		{{- $h := 0 }}
+		{{- with resources.Get "img/afiliados/panasonic-ub820.png" }}
+			{{- $img := .Resize "600x q80 webp" }}
+			{{- $src = $img.RelPermalink }}
+			{{- $w = $img.Width }}
+			{{- $h = $img.Height }}
+		{{- end }}
+		<img class="post-product-promo__image" src="{{ $src }}" {{ if $w }}width="{{ $w }}"{{ end }} {{ if $h }}height="{{ $h }}"{{ end }} alt="Reproductor de Blu-ray recomendado" loading="lazy">
 	</a>
 	<p class="post-product-promo__disclosure meta"><a href="{{ "about/" | relURL }}#afiliación">Recomendación de Alberto · enlace de afiliado</a></p>
 </div>

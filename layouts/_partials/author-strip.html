@@ -1,5 +1,14 @@
 <div class="author-strip">
-  <img class="author-strip__photo" src="{{ "img/alberto-peralta-guerrero.jpg" | relURL }}" alt="Alberto Peralta">
+  {{- $src := "img/alberto-peralta-guerrero.jpg" | relURL }}
+  {{- $w := 0 }}
+  {{- $h := 0 }}
+  {{- with resources.Get "img/alberto-peralta-guerrero.jpg" }}
+    {{- $photo := .Resize "128x128 q80" }}
+    {{- $src = $photo.RelPermalink }}
+    {{- $w = $photo.Width }}
+    {{- $h = $photo.Height }}
+  {{- end }}
+  <img class="author-strip__photo" src="{{ $src }}" {{ if $w }}width="{{ $w }}"{{ end }} {{ if $h }}height="{{ $h }}"{{ end }} alt="Alberto Peralta">
   <div class="author-strip__text">
     <div class="author-strip__name">Alberto Peralta</div>
     <div class="author-strip__bio">Llevo años viendo cine asiático con la convicción de que ahí ocurren algunas de las cosas más interesantes del cine contemporáneo. Este blog es el cuaderno de notas que siempre quise tener.</div>
