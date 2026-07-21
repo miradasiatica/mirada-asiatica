@@ -24,7 +24,7 @@ tags:
   - Festival Nits
 authors:
   - alberto-peralta
-thumbnail: "https://image.tmdb.org/t/p/original/k4ktEyMc7PIi64bsaWwsf45b4d0.jpg"
+thumbnail: "img/posters/road-to-vendetta.jpg"
 rating: 3.5
 hero_image: "img/heroes/road-to-vendetta.jpg"
 ---
