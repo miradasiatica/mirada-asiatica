@@ -1,14 +1,15 @@
 ---
-title: "Crítica de 4 Tigers"
-description: "Reseña de 4 Tigers, la superproducción tailandesa de Kongkiat Komesiri que mezcla western, fantasía folclórica y acción sobrenatural en la posguerra."
-date: 2026-07-21
-slug: "4-tigers"
-draft: true
+title: Crítica de 4 Tigers
+slug: 4-tigers
+description: Reseña de 4 Tigers, la superproducción tailandesa de Kongkiat
+  Komesiri que mezcla western, fantasía folclórica y acción sobrenatural en la
+  posguerra.
+date: 2026-07-22
+rating: 3.5
+draft: false
 categories:
   - Más Asia
-
-home_section: "Más Asia"
-
+home_section: Más Asia
 tags:
   - 4 Tigers
   - Suea
@@ -25,9 +26,8 @@ tags:
   - Festival Nits
 authors:
   - alberto-peralta
-thumbnail: "img/posters/4-tigers.jpg"
-rating: 3.5
-hero_image: "img/heroes/4-tigers.jpg"
+thumbnail: img/posters/4-tigers.jpg
+hero_image: img/heroes/4-tigers.jpg
 ---
 {{< rating "3,5" >}}
 
