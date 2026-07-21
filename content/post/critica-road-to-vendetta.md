@@ -1,14 +1,15 @@
 ---
-title: "Crítica de Road to Vendetta"
-description: "Reseña de Road to Vendetta (殺手#4), la película de Albert Njo Kui-ying sobre un asesino profesional de Hong Kong y una joven japonesa unidos por la venganza en el submundo criminal transnacional."
+title: Crítica de Road to Vendetta
+slug: road-to-vendetta
+description: Reseña de Road to Vendetta (殺手#4), la película de Albert Njo
+  Kui-ying sobre un asesino profesional de Hong Kong y una joven japonesa unidos
+  por la venganza en el submundo criminal transnacional.
 date: 2026-07-21
-slug: "road-to-vendetta"
-draft: true
+rating: 3.5
+draft: false
 categories:
   - China
-
-home_section: "China"
-
+home_section: China
 tags:
   - Road to Vendetta
   - 殺手#4
@@ -24,9 +25,8 @@ tags:
   - Festival Nits
 authors:
   - alberto-peralta
-thumbnail: "img/posters/road-to-vendetta.jpg"
-rating: 3.5
-hero_image: "img/heroes/road-to-vendetta.jpg"
+thumbnail: img/posters/road-to-vendetta.jpg
+hero_image: img/heroes/road-to-vendetta.jpg
 ---
 {{< rating "3,5" >}}
 
