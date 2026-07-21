@@ -50,7 +50,7 @@ La película mezcla el humor habitual de la franquicia con referencias al cine m
 
 También regresa uno de los personajes fundamentales de la cultura popular japonesa con **Lupin the IIIRD the Movie: The Immortal Bloodline**, dirigida por Takeshi Koike. En esta ocasión, Lupin y su banda llegan hasta una isla aparentemente desierta en busca de un tesoro, pero terminan enfrentándose a sus enigmáticos habitantes.
 
-> _[(12) LUPIN THE IIIRD THE MOVIE : The Immortal Bloodline​ | Official Trailer - YouTube](https://www.youtube.com/watch?v=f3vu4JydRRA)
+{{< youtube f3vu4JydRRA >}}
 
 ## La nueva animación china
 
@@ -66,7 +66,7 @@ A ellas se suma **The Last Blossom**, del japonés Baku Kinoshita. La película 
 
 Con estas películas, la animación deja de funcionar únicamente como una sección destinada al público infantil. Se convierte en uno de los principales lenguajes del festival para hablar de identidad, desigualdad, memoria, tradición y transformación.
 
-> [I AM WHAT I AM 2 - Trailer](https://www.youtube.com/watch?v=XuW1opSXVqg)
+{{< youtube XuW1opSXVqg >}}
 
 ## Kung-fu, acción y memoria de Hong Kong
 
@@ -94,7 +94,7 @@ La representación china se amplía con títulos como **Fight Against Evil 3**, 
 
 También destaca **Against All Odds**, ambientada durante la ocupación japonesa de Hong Kong en 1944. La película sigue a un grupo de guerrilleros y agentes encubiertos que intentan rescatar a un piloto estadounidense abatido.
 
-> [醉刀客 Drunken Blade ｜ 預告 Trailer](https://www.youtube.com/watch?v=XA-B_w5zRkc)
+{{< youtube XA-B_w5zRkc >}}
 
 ## Ken Law y el nuevo cine de acción de Hong Kong
 
@@ -152,7 +152,7 @@ La historia sigue a un príncipe criado lejos de su reino que descubre la verdad
 
 Su elección como cierre resulta coherente con la filosofía de la edición. La obra de Rajamouli representa un cine popular ambicioso, emocional y desmesurado que combina melodrama, acción, mitología y espectáculo visual.
 
-[Baahubali: The Epic - Official Trailer (2025)](https://www.youtube.com/watch?v=q8nbZbHRcEg)
+{{< youtube q8nbZbHRcEg >}}
 
 ## Mucho más que proyecciones
 
