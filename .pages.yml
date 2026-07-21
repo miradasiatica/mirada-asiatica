@@ -1,3 +1,15 @@
+media:
+  - name: posters
+    label: Carteles
+    input: static/img/posters
+    output: img/posters
+    categories: [image]
+  - name: heroes
+    label: Imágenes horizontales
+    input: static/img/heroes
+    output: img/heroes
+    categories: [image]
+
 content:
   - name: reviews
     label: Reseñas
@@ -22,6 +34,12 @@ content:
       - name: date
         label: Fecha
         type: date
+      - name: rating
+        label: Puntuación (sobre 5)
+        type: number
+        options:
+          min: 0
+          max: 5
       - name: draft
         label: Borrador
         type: boolean
@@ -44,9 +62,13 @@ content:
       - name: thumbnail
         label: Cartel
         type: image
+        options:
+          media: posters
       - name: hero_image
         label: Imagen horizontal
         type: image
+        options:
+          media: heroes
       - name: body
         label: Contenido
         type: code

@@ -4,6 +4,7 @@ slug: decision-to-leave
 description: Reseña de Decision to Leave, el thriller de Park Chan-wook sobre
   una investigación convertida en obsesión romántica y extravío moral.
 date: 2026-07-20
+rating: 4.0
 draft: false
 categories:
   - Corea
