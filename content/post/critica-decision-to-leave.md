@@ -22,7 +22,7 @@ tags:
   - cine negro
 authors:
   - alberto-peralta
-thumbnail: https://image.tmdb.org/t/p/w500/N0rskx91Eh6aWjvBybeY6epNic.jpg
+thumbnail: img/posters/decision-to-leave.jpg
 hero_image: img/heroes/decision-to-leave-horizontal.jpg
 ---
 {{< rating "4" >}}

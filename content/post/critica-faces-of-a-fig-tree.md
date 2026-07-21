@@ -21,7 +21,7 @@ tags:
   - familia
 authors:
   - alberto-peralta
-thumbnail: "https://image.tmdb.org/t/p/w342/6xA8G6gMUi2DFZkXzx7Rsie1ITQ.jpg"
+thumbnail: "img/posters/faces-of-a-fig-tree.jpg"
 hero_image: "img/heroes/faces-of-a-fig-tree-horizontal.jpg"
 ---
 {{< rating "4,5" >}}
