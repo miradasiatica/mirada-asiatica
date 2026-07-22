@@ -1,0 +1,10 @@
+{{- $img := partial "head/resolve-share-image.html" . }}
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }}">
+{{- with (.Description | default .Site.Params.description) }}
+<meta name="twitter:description" content="{{ . }}">
+{{- end }}
+{{- if $img.URL }}
+<meta name="twitter:image" content="{{ $img.URL }}">
+{{- end }}
