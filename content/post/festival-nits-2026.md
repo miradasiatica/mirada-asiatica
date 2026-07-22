@@ -5,7 +5,7 @@ slug: festival-nits-2026
 description: "Cobertura de la 23.ª edición del Festival Nits de Cinema Oriental
   de Vic (14-19 de julio de 2026): animación, kung-fu y cine popular asiático en
   44 películas de nueve cinematografías asiáticas."
-date: 2026-07-21
+date: 2026-07-17
 draft: false
 categories:
   - Festivales

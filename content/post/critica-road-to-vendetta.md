@@ -4,7 +4,7 @@ slug: road-to-vendetta
 description: Reseña de Road to Vendetta (殺手#4), la película de Albert Njo
   Kui-ying sobre un asesino profesional de Hong Kong y una joven japonesa unidos
   por la venganza en el submundo criminal transnacional.
-date: 2026-07-21
+date: 2026-07-20
 rating: 3.5
 draft: false
 categories:

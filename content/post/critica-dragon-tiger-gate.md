@@ -2,7 +2,7 @@
 title: "Crítica de Dragon Tiger Gate"
 slug: "dragon-tiger-gate"
 description: "Reseña de Dragon Tiger Gate, la fantasía marcial hongkonesa de Wilson Yip sobre hermanos enfrentados, cómic en movimiento y golpes lastrados por el exceso digital."
-date: 2026-07-13T17:19:33+02:00
+date: 2026-07-15
 rating: 3.0
 draft: false
 categories:

@@ -1,7 +1,7 @@
 ---
 title: "Crítica de Faces of a Fig Tree"
 description: "Reseña de Faces of a Fig Tree, la película de Kaori Momoi sobre una familia japonesa, una casa con higuera y una rareza formal que acaba revelando una crónica íntima."
-date: 2026-07-20
+date: 2026-07-07
 rating: 4.5
 slug: "faces-of-a-fig-tree"
 draft: false

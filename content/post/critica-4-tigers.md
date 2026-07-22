@@ -4,7 +4,7 @@ slug: 4-tigers
 description: Reseña de 4 Tigers, la superproducción tailandesa de Kongkiat
   Komesiri que mezcla western, fantasía folclórica y acción sobrenatural en la
   posguerra.
-date: 2026-07-22
+date: 2026-07-21
 rating: 3.5
 draft: false
 categories:
