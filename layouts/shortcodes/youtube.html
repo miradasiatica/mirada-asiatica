@@ -1,0 +1,40 @@
+{{- $id := .Get 0 -}}
+<div class="lite-yt" data-yt-id="{{ $id }}" role="button" tabindex="0" aria-label="Reproducir vídeo de YouTube" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;background:#000;cursor:pointer">
+	<img src="https://i.ytimg.com/vi/{{ $id }}/hqdefault.jpg" decoding="async" alt="Miniatura del vídeo de YouTube" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover">
+	<svg viewBox="0 0 68 48" aria-hidden="true" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:68px;height:48px;pointer-events:none">
+		<path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.13 13.05 0 24 0 24s.13 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.87 34.95 68 24 68 24s-.13-10.95-1.48-16.26z" fill="red"></path>
+		<path d="M45 24 27 14v20" fill="#fff"></path>
+	</svg>
+</div>
+{{- if not (.Page.Scratch.Get "liteYtScriptDone") }}
+{{- .Page.Scratch.Set "liteYtScriptDone" true }}
+<script>
+(function () {
+	function activar(box) {
+		if (box.dataset.ytReady) return;
+		box.dataset.ytReady = "1";
+		var id = box.getAttribute("data-yt-id");
+		var iframe = document.createElement("iframe");
+		iframe.src = "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1";
+		iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+		iframe.allowFullscreen = true;
+		iframe.title = "YouTube video";
+		iframe.style.cssText = "position:absolute;top:0;left:0;width:100%;height:100%;border:0";
+		box.textContent = "";
+		box.appendChild(iframe);
+	}
+	document.addEventListener("click", function (e) {
+		var box = e.target.closest(".lite-yt");
+		if (box) activar(box);
+	});
+	document.addEventListener("keydown", function (e) {
+		if (e.key !== "Enter" && e.key !== " ") return;
+		var box = e.target.closest(".lite-yt");
+		if (box) {
+			e.preventDefault();
+			activar(box);
+		}
+	});
+})();
+</script>
+{{- end }}
