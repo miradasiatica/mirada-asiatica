@@ -1,0 +1,28 @@
+{{- $server := "" }}
+{{- if ge (int (index (split hugo.Version ".") 1)) "120" }}
+	{{- $server = hugo.IsServer }}
+{{- else }}
+	{{- $server = .Site.IsServer }}
+{{- end }}
+{{- if and (eq .Type "post") (index .Params "comments" | default true) (not $server) }}
+<section class="comments" id="isso-thread" data-isso-id="{{ .RelPermalink }}">
+	<noscript>Activa JavaScript para ver y escribir comentarios.</noscript>
+</section>
+<script>
+(function () {
+	function cargarIsso() {
+		var s = document.createElement("script");
+		s.src = "https://comments.miradasiatica.com/js/embed.min.js";
+		s.setAttribute("data-isso", "https://comments.miradasiatica.com/");
+		s.setAttribute("data-isso-lang", "es");
+		s.async = true;
+		document.body.appendChild(s);
+	}
+	if (document.readyState === "complete") {
+		cargarIsso();
+	} else {
+		window.addEventListener("load", cargarIsso);
+	}
+})();
+</script>
+{{- end }}
