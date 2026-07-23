@@ -1,12 +1,12 @@
 ---
 title: Crítica de The Way We Talk
 slug: the-way-we-talk
-description: Reseña de The Way We Talk (看我今天怎麼說), el drama de Adam
-  Wong sobre tres jóvenes sordos de Hong Kong y sus distintas relaciones con
-  la lengua de signos, el implante coclear y la integración.
+description: Reseña de The Way We Talk (看我今天怎麼說), el drama de Adam Wong sobre
+  tres jóvenes sordos de Hong Kong y sus distintas relaciones con la lengua de
+  signos, el implante coclear y la integración.
 date: 2026-07-23
-rating: 4.0
-draft: true
+rating: 4
+draft: false
 categories:
   - China
 home_section: China
