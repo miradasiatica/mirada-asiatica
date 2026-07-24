@@ -1,11 +1,12 @@
 ---
 title: Crítica de The Last Blossom
-slug: The-Last-Blossom
-description: Reseña de The Last Blossom, la película de Baku Kinoshita sobre
-  culpa, memoria y la posibilidad incierta de la redención.
+slug: the-last-blossom
+description: The Last Blossom. La redención es uno de los negocios más prósperos
+  del cine, y Baku Kinoshita entra en él con un yakuza moribundo y una flor
+  insolente. Sale mejor parado de lo que yo esperaba
 date: 2026-07-23
 rating: 3.5
-draft: true
+draft: false
 categories:
   - Japón
 home_section: Japón
