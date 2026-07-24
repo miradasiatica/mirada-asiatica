@@ -1,0 +1,16 @@
+<script>
+(function () {
+	function cargarUmami() {
+		var s = document.createElement("script");
+		s.src = "https://stats.miradasiatica.com/script.js";
+		s.setAttribute("data-website-id", "914b79b6-81c2-4b3a-912b-568797e1fb3b");
+		s.async = true;
+		document.body.appendChild(s);
+	}
+	if (document.readyState === "complete") {
+		cargarUmami();
+	} else {
+		window.addEventListener("load", cargarUmami);
+	}
+})();
+</script>
