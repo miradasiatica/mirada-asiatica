@@ -1,5 +1,5 @@
 ---
-title: "Crítica de Así aprenderás"
+title: "La letra con sangre entretiene, y mucho — Crítica de Así aprenderás"
 description: "Reseña de Así aprenderás, la miniserie surcoreana identificada como Teach You a Lesson sobre acoso escolar, violencia correctiva y poder institucional."
 date: 2026-07-13
 rating: 4.0

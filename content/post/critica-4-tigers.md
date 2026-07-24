@@ -1,5 +1,5 @@
 ---
-title: Crítica de 4 Tigers
+title: "Una superproducción con personalidad, cosa rara hoy — Crítica de 4 Tigers"
 slug: 4-tigers
 description: Reseña de 4 Tigers, la superproducción tailandesa de Kongkiat
   Komesiri que mezcla western, fantasía folclórica y acción sobrenatural en la

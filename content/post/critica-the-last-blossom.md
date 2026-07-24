@@ -1,5 +1,5 @@
 ---
-title: Crítica de The Last Blossom
+title: "Quiso proteger, no supo hacerlo — Crítica de The Last Blossom"
 slug: the-last-blossom
 description: The Last Blossom. La redención es uno de los negocios más prósperos
   del cine, y Baku Kinoshita entra en él con un yakuza moribundo y una flor

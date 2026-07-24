@@ -1,5 +1,5 @@
 ---
-title: "Crítica de The Raid"
+title: "Que los golpes duelan al otro lado de la pantalla — Crítica de The Raid"
 description: "Reseña de The Raid, la película de acción indonesia de Gareth Evans sobre un equipo policial atrapado en un edificio controlado por el crimen."
 date: 2026-06-24
 rating: 3.5

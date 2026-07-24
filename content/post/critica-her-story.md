@@ -1,5 +1,5 @@
 ---
-title: Crítica de Her Story
+title: "Apunten el nombre de Shao Yihui. Yo ya lo he hecho — Crítica de Her Story"
 description: Reseña de Her Story, la película de Shao Yihui sobre la amistad, la
   maternidad y la comedia feminista en el Shanghái contemporáneo.
 date: 2026-07-03

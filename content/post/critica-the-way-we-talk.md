@@ -1,5 +1,5 @@
 ---
-title: Crítica de The Way We Talk
+title: "Dejar de llamar silencio a lo que nunca aprendimos a escuchar — Crítica de The Way We Talk"
 slug: the-way-we-talk
 description: Reseña de The Way We Talk (看我今天怎麼說), el drama de Adam Wong sobre
   tres jóvenes sordos de Hong Kong y sus distintas relaciones con la lengua de

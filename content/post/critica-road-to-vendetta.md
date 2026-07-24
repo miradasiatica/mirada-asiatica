@@ -1,5 +1,5 @@
 ---
-title: Crítica de Road to Vendetta
+title: "Una película puede moverse mucho sin avanzar — Crítica de Road to Vendetta"
 slug: road-to-vendetta
 description: Reseña de Road to Vendetta (殺手#4), la película de Albert Njo
   Kui-ying sobre un asesino profesional de Hong Kong y una joven japonesa unidos

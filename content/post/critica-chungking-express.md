@@ -1,5 +1,5 @@
 ---
-title: "Crítica de Chungking Express"
+title: "Hay películas que se ven y películas que le pasan a uno. Esta me pasó — Crítica de Chungking Express"
 description: "Reseña de Chungking Express, la película de Wong Kar-wai sobre la caducidad amorosa y el vértigo urbano en el Hong Kong de 1994."
 date: 2026-07-09
 rating: 5.0

@@ -1,5 +1,5 @@
 ---
-title: "Crítica de Dragon Tiger Gate"
+title: "La gravedad era el mejor guionista del cine de artes marciales y la han despedido — Crítica de Dragon Tiger Gate"
 slug: "dragon-tiger-gate"
 description: "Reseña de Dragon Tiger Gate, la fantasía marcial hongkonesa de Wilson Yip sobre hermanos enfrentados, cómic en movimiento y golpes lastrados por el exceso digital."
 date: 2026-07-15

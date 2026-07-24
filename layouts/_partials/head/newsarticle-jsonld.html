@@ -44,7 +44,14 @@
 {{- end }}
 
 {{- if and (eq (.Params.content_type | default "") "review") .Params.rating }}
-    {{- $movieName := strings.TrimPrefix "Crítica de " .Title }}
+    {{- $separador := " — Crítica de " }}
+    {{- $movieName := .Title }}
+    {{- if in .Title $separador }}
+        {{- $partes := split .Title $separador }}
+        {{- $movieName = index $partes (sub (len $partes) 1) }}
+    {{- else }}
+        {{- $movieName = strings.TrimPrefix "Crítica de " .Title }}
+    {{- end }}
     {{- $movie := dict "@type" "Movie" "name" $movieName }}
     {{- with .Params.director }}
         {{- $movie = merge $movie (dict "director" (dict "@type" "Person" "name" .)) }}

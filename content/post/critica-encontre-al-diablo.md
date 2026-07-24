@@ -1,5 +1,5 @@
 ---
-title: Crítica de Encontré al diablo
+title: "Yo lo encontré antes que él. Estaba en mi butaca, deseando la siguiente captura — Crítica de Encontré al diablo"
 slug: encontre-al-diablo
 description: Reseña de Encontré al diablo, el thriller surcoreano de Kim
   Jee-woon sobre una venganza que se pudre desde dentro.

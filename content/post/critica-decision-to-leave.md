@@ -1,5 +1,5 @@
 ---
-title: Crítica de Decision to Leave
+title: "El cine negro sin sensación de peligro es un guante precioso sin mano dentro — Crítica de Decision to Leave"
 slug: decision-to-leave
 description: Reseña de Decision to Leave, el thriller de Park Chan-wook sobre
   una investigación convertida en obsesión romántica y extravío moral.

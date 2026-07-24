@@ -1,5 +1,5 @@
 ---
-title: Crítica de I Am What I Am 2
+title: "Un cuerpo no olvida — Crítica de I Am What I Am 2"
 slug: i-am-what-i-am-2
 description: Reseña de I Am What I Am 2 (雄狮少年2), la secuela de animación china
   de Sun Haipeng que traslada la danza del león a una competición de artes
