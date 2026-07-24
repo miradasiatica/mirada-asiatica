@@ -6,6 +6,11 @@
 {{- else -}}
 {{- $pages = $pctx.Pages -}}
 {{- end -}}
+{{- /* Solo reseñas en el feed -- paginas sueltas como about.md (sin
+     seccion, sin fecha real de articulo) no pintan nada aqui y su
+     ausencia de fecha real ya causo un pubDate invalido (año 0001) que
+     rompio la importacion completa del feed en al menos un lector. */ -}}
+{{- $pages = where $pages "Type" "post" -}}
 {{- $limit := .Site.Config.Services.RSS.Limit -}}
 {{- if ge $limit 1 -}}
 {{- $pages = $pages | first $limit -}}

@@ -1,5 +1,6 @@
 ---
 title: "Sobre Mirada Asiática"
+date: 2026-06-24
 authorbox: false
 sidebar: false
 menu: main
