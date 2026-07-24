@@ -1,5 +1,6 @@
 ---
 title: Crítica de The Last Blossom
+slug: The-Last-Blossom
 description: Reseña de The Last Blossom, la película de Baku Kinoshita sobre
   culpa, memoria y la posibilidad incierta de la redención.
 date: 2026-07-23
