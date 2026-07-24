@@ -31,11 +31,32 @@ authors:
 thumbnail: img/posters/the-last-blossom.jpg
 hero_image: img/heroes/the-last-blossom.jpg
 ---
-# The Last Blossom (Housenka)
+{{< rating "3,5" >}}
+
+*La redención es uno de los negocios más prósperos del cine, y Baku Kinoshita entra en él con un yakuza moribundo y una flor insolente.*
+
+<!--more-->
+
+## Ficha técnica
+
+- Título internacional: *The Last Blossom*
+- Título original: `ホウセンカ` (Housenka)
+- Dirección: Baku Kinoshita
+- Intérpretes principales: Kaoru Kobayashi, Junki Tozuka, Hikari Mitsushima, Yoshiko Miyazaki, Pierre Taki
+- País: Japón
+- Año: 2025
+- Duración: 90 minutos
+- Género: animación, drama, crimen
+
+## Sinopsis
+
+Una historia de animación adulta construida alrededor de un preso, una flor y los recuerdos de una vida que se aproxima a su final.
 
 ## Tráiler
 
 {{< youtube mfq5MFQ58wU >}}
+
+## Mi opinión
 
 Siempre he desconfiado de las historias que esperan a que un criminal esté a las puertas de la muerte para descubrirnos que en el fondo tenía buen corazón. Es una operación demasiado cómoda. Primero el personaje mata, roba y destroza unas cuantas vidas; luego abraza a un niño, acaricia un perro o recuerda entre lágrimas a la mujer que perdió, y ya podemos acompañarlo al otro barrio con la conciencia tranquila. La redención es uno de los negocios más prósperos del cine, y sale especialmente barata cuando quienes sufrieron al protagonista no están presentes para discutirle la versión. The Last Blossom se acerca peligrosamente a ese terreno. Tiene la inteligencia, y esto es lo que la salva, de no instalarse del todo en él.
 
