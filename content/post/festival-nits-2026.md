@@ -12,15 +12,12 @@ categories:
 home_section: Festivales
 tags:
   - Festival Nits
-  - China
-  - Japón
-  - Corea del Sur
-  - Hong Kong
-  - India
-  - Tailandia
-  - Indonesia
-  - Singapur
-  - Vietnam
+  - animación
+  - kung-fu
+  - wuxia
+  - artes marciales
+  - cine de acción
+  - cine familiar
 authors:
   - alberto-peralta
 thumbnail: img/posters/festival-nits-2026.jpg

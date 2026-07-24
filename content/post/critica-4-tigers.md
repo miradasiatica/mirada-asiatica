@@ -6,6 +6,7 @@ description: Reseña de 4 Tigers, la superproducción tailandesa de Kongkiat
   posguerra.
 date: 2026-07-21
 rating: 3.5
+content_type: review
 draft: false
 categories:
   - Más Asia

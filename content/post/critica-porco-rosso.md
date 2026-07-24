@@ -3,6 +3,7 @@ title: "Crítica de Porco Rosso"
 description: "Reseña de Porco Rosso, la película de Hayao Miyazaki sobre aviación, melancolía y rechazo del fascismo en el Adriático de entreguerras."
 date: 2026-07-08
 rating: 5.0
+content_type: review
 draft: false
 categories:
   - Japón

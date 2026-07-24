@@ -3,6 +3,7 @@ title: "Crítica de Así aprenderás"
 description: "Reseña de Así aprenderás, la miniserie surcoreana identificada como Teach You a Lesson sobre acoso escolar, violencia correctiva y poder institucional."
 date: 2026-07-13
 rating: 4.0
+content_type: review
 draft: false
 categories:
   - Corea

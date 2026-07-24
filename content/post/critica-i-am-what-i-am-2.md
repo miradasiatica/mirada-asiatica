@@ -6,6 +6,7 @@ description: Reseña de I Am What I Am 2 (雄狮少年2), la secuela de animaci�
   marciales en Shanghái.
 date: 2026-07-21
 rating: 4
+content_type: review
 draft: false
 categories:
   - China

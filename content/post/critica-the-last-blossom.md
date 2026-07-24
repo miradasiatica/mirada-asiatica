@@ -6,6 +6,7 @@ description: The Last Blossom. La redención es uno de los negocios más próspe
   insolente. Sale mejor parado de lo que yo esperaba
 date: 2026-07-23
 rating: 3.5
+content_type: review
 draft: false
 categories:
   - Japón

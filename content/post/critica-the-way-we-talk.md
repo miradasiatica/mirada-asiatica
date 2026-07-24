@@ -6,6 +6,7 @@ description: Reseña de The Way We Talk (看我今天怎麼說), el drama de Ada
   signos, el implante coclear y la integración.
 date: 2026-07-23
 rating: 4
+content_type: review
 draft: false
 categories:
   - China
