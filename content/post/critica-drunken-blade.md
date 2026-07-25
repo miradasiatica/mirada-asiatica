@@ -1,10 +1,10 @@
 ---
-title: Con miel y todo — Crítica de Drunken Blade
+title: "Voy a ser injusto con esta película, y lo voy a ser a sabiendas — Crítica de Drunken Blade"
 slug: drunken-blade
-description: Reseña de Drunken Blade (醉刀客), también conocida como The Killer of
-  Swordsmen, el wuxia de acción dirigido y protagonizado por Li Bingyuan.
+description: Si algo parece que duele de verdad en pantalla, probablemente sea porque duele de verdad.
 date: 2026-07-25
 rating: 4
+content_type: review
 draft: false
 categories:
   - China
@@ -24,7 +24,7 @@ hero_image: img/heroes/drunken-blade.jpg
 ---
 {{< rating "4" >}}
 
-*Y hay una palabra que casi nunca uso hablando de este género, y aquí me sale sola: crueldad.*
+*Si algo parece que duele de verdad en pantalla, probablemente sea porque duele de verdad.*
 
 <!--more-->
 
