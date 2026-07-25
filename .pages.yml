@@ -41,6 +41,10 @@ content:
           min: 0
           max: 5
           step: 0.5
+      - name: content_type
+        label: Tipo de contenido (interno, no cambiar)
+        type: string
+        default: review
       - name: draft
         label: Borrador
         type: boolean
