@@ -1,12 +1,11 @@
 ---
-title: "Con miel y todo — Crítica de Drunken Blade"
+title: Con miel y todo — Crítica de Drunken Blade
 slug: drunken-blade
-description: Reseña de Drunken Blade (醉刀客), también conocida como The Killer
-  of Swordsmen, el wuxia de acción dirigido y protagonizado por Li Bingyuan.
-date: 2026-07-24
+description: Reseña de Drunken Blade (醉刀客), también conocida como The Killer of
+  Swordsmen, el wuxia de acción dirigido y protagonizado por Li Bingyuan.
+date: 2026-07-25
 rating: 4
-content_type: review
-draft: true
+draft: false
 categories:
   - China
 home_section: China
