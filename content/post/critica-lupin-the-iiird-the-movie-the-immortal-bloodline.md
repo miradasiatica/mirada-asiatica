@@ -1,19 +1,20 @@
 ---
-title: "Dos películas peleándose dentro de una sola butaca — Crítica de Lupin the IIIrd: The Movie - The Immortal Bloodline"
+title: "Dos películas peleándose dentro de una sola butaca — Crítica de Lupin
+  the IIIrd: The Movie - The Immortal Bloodline"
 slug: lupin-the-iiird-the-movie-the-immortal-bloodline
-description: "Lupin the IIIrd: The Movie - The Immortal Bloodline cierra la etapa de Takeshi Koike con una aventura de animación japonesa tan magnética como lastrada por su obsesión de continuidad."
-date: 2026-07-19
-rating: 3.0
+description: "Lupin the IIIrd: The Movie - The Immortal Bloodline cierra la
+  etapa de Takeshi Koike con una aventura de animación japonesa tan magnética
+  como lastrada por su obsesión de continuidad."
+date: 2026-07-28
+rating: 3
 content_type: review
-draft: true
+draft: false
 categories:
   - Japón
 home_section: Japón
 tags:
   - Festival Nits
-  - Lupin the IIIrd: The Movie - The Immortal Bloodline
   - LUPIN THE IIIRD THE MOVIE 不死身の血族
-  - Lupin III: el linaje inmortal
   - Takeshi Koike
   - Monkey Punch
   - Kanichi Kurita
