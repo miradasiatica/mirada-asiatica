@@ -1,11 +1,13 @@
 ---
-title: "Que le quiten lo bailado a Jackie Chan — Crítica de Unexpected Family"
+title: Que le quiten lo bailado a Jackie Chan — Crítica de Unexpected Family
 slug: unexpected-family
-description: Unexpected Family enfrenta a Jackie Chan con la vejez, la memoria y una familia improvisada en una comedia dramática china sobre la impostura como acto de amor.
-date: 2026-07-19
-rating: 4.0
+description: Unexpected Family enfrenta a Jackie Chan con la vejez, la memoria y
+  una familia improvisada en una comedia dramática china sobre la impostura como
+  acto de amor.
+date: 2026-07-27
+rating: 4
 content_type: review
-draft: true
+draft: false
 categories:
   - China
 home_section: China
