@@ -3,7 +3,7 @@ title: Shars 51 — Crítica
 slug: shars-51
 description: Salí de la sala con dolor de barriga de tanto reír, esa rara mezcla
   de vergüenza ajena y devoción que solo produce el bakaeiga bien hecho.
-date: 2026-07-19
+date: 2026-07-29
 rating: 4
 content_type: review
 draft: false
